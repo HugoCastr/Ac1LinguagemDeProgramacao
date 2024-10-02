@@ -1,0 +1,71 @@
+body, html{
+    margin: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+.cabecalho{
+    height: 8%;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    top: 0;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 5px;
+}
+.cabecalho p{
+    margin-left: 10px;
+}
+.lateral{
+    
+    height: 92%;
+    width: 15%;
+    background-color: black;
+    float: left;
+    position: fixed;
+    top: 8%;
+}
+.lateral li a{
+    text-decoration: none;
+    color: white;
+}
+.lateral li a:hover{
+    text-decoration: none;
+    text-shadow: 1px 2px 2px #ccc;
+}
+.lateral li{
+    font-weight: 400;
+    color: white;
+}
+.conteudo{
+    width: 90%;
+    height: 92%;
+    background-color: gray;
+    display: flex;
+    top: 0;
+    flex-direction: column;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin-left: 15px;
+}
+.conteudo h1,
+.conteudo p{
+    text-align: center;
+}
+.rodape{
+    height: 8%;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    color: white;
+    display: flex;
+    flex-direction: initial;
+    text-align: center;
+    justify-content: center;
+    bottom: 0;
+}
